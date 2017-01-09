@@ -1,0 +1,16 @@
+'atom-workspace, atom-workspace atom-text-editor':
+  'ctrl-E': 'rst-preview-pandoc:toggle'
+
+'.platform-darwin .rst-preview-pandoc':
+  'cmd-+': 'rst-preview-pandoc:zoom-in'
+  'cmd-=': 'rst-preview-pandoc:zoom-in'
+  'cmd--': 'rst-preview-pandoc:zoom-out'
+  'cmd-_': 'rst-preview-pandoc:zoom-out'
+  'cmd-0': 'rst-preview-pandoc:reset-zoom'
+
+'.platform-win32 .rst-preview-pandoc, .platform-linux .rst-preview-pandoc':
+  'ctrl-+': 'rst-preview-pandoc:zoom-in'
+  'ctrl-=': 'rst-preview-pandoc:zoom-in'
+  'ctrl--': 'rst-preview-pandoc:zoom-out'
+  'ctrl-_': 'rst-preview-pandoc:zoom-out'
+  'ctrl-0': 'rst-preview-pandoc:reset-zoom'
