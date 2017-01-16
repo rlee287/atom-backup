@@ -26,8 +26,6 @@
     with open(${1:file_name},${2:"r"}) as ${3:file_var}:
         ${4:text}=${3:file_var}.read()
     """
-
-'.source.python':
   'Open write':
     'prefix': 'wopenw'
     'body': """
