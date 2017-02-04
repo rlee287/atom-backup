@@ -270,12 +270,7 @@ module.exports =
         log.debug 'Ignoring keyup events due to autocomplete-plus settings.'
         return
       disposable = @_addEventListener editor, eventName, (e) =>
-        bracketIdentifiers =
-          'U+0028': 'qwerty'
-          'U+0038': 'german'
-          'U+0035': 'azerty'
-          'U+0039': 'other'
-        if e.keyIdentifier of bracketIdentifiers
+        if atom.keymaps.keystrokeForKeyboardEvent(e) == '^('
           log.debug 'Trying to complete arguments on keyup event', e
           @_completeArguments(editor, editor.getCursorBufferPosition())
       @disposables.add disposable
@@ -427,7 +422,7 @@ module.exports =
   getSuggestions: ({editor, bufferPosition, scopeDescriptor, prefix}) ->
     @load()
     if not @triggerCompletionRegex.test(prefix)
-      return []
+      return @lastSuggestions = []
     bufferPosition =
       row: bufferPosition.row
       column: bufferPosition.column
@@ -447,9 +442,9 @@ module.exports =
       # We have to parse JSON on each request here to pass only a copy
       matches = JSON.parse(@responses[requestId]['source'])['results']
       if atom.config.get('autocomplete-python.fuzzyMatcher')
-        return @_fuzzyFilter(matches, prefix)
+        return @lastSuggestions = @_fuzzyFilter(matches, prefix)
       else
-        return matches
+        return @lastSuggestions = matches
     payload =
       id: requestId
       prefix: prefix
@@ -464,9 +459,10 @@ module.exports =
     return new Promise (resolve) =>
       if atom.config.get('autocomplete-python.fuzzyMatcher')
         @requests[payload.id] = (matches) =>
-          resolve(@_fuzzyFilter(matches, prefix))
+          resolve(@lastSuggestions = @_fuzzyFilter(matches, prefix))
       else
-        @requests[payload.id] = resolve
+        @requests[payload.id] = (suggestions) =>
+          resolve(@lastSuggestions = suggestions)
 
   getDefinitions: (editor, bufferPosition) ->
     payload =
