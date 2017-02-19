@@ -29,6 +29,7 @@
     showIconsInEditorGutter: true
   linter:
     lintOnFlyInterval: 1500
+    showErrorPanel: false
   "linter-pylint":
     rcFile: "C:\\Users\\Ryan\\.atom\\atom.pylintrc"
   minimap:

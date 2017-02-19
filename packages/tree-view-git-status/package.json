@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-1161124-8592-1jybfq4\\package.tgz",
+        "raw": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117118-13892-ipupo3\\package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-1161124-8592-1jybfq4\\package.tgz",
-        "spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-1161124-8592-1jybfq4\\package.tgz",
+        "rawSpec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117118-13892-ipupo3\\package.tgz",
+        "spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117118-13892-ipupo3\\package.tgz",
         "type": "local"
       },
-      "C:\\Users\\Ryan\\AppData\\Local\\Temp\\apm-install-dir-1161124-8592-1imgfm2"
+      "C:\\Users\\Ryan\\AppData\\Local\\Temp\\apm-install-dir-117118-13892-10lqf2d"
     ]
   ],
-  "_from": "..\\d-1161124-8592-1jybfq4\\package.tgz",
-  "_id": "tree-view-git-status@1.3.0",
+  "_from": "..\\d-117118-13892-ipupo3\\package.tgz",
+  "_id": "tree-view-git-status@1.3.1",
   "_inCache": true,
   "_installable": true,
   "_location": "/tree-view-git-status",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-1161124-8592-1jybfq4\\package.tgz",
+    "raw": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117118-13892-ipupo3\\package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-1161124-8592-1jybfq4\\package.tgz",
-    "spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-1161124-8592-1jybfq4\\package.tgz",
+    "rawSpec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117118-13892-ipupo3\\package.tgz",
+    "spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117118-13892-ipupo3\\package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:..\\d-1161124-8592-1jybfq4\\package.tgz",
-  "_shasum": "733136d7d5881ba59c9c138569ebb6f06fa07d47",
+  "_resolved": "file:..\\d-117118-13892-ipupo3\\package.tgz",
+  "_shasum": "11e303ddfd5ff0657a5221ced77ad75921e00839",
   "_shrinkwrap": null,
-  "_spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-1161124-8592-1jybfq4\\package.tgz",
-  "_where": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\apm-install-dir-1161124-8592-1imgfm2",
+  "_spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117118-13892-ipupo3\\package.tgz",
+  "_where": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\apm-install-dir-117118-13892-10lqf2d",
   "bugs": {
     "url": "https://github.com/subesokun/atom-tree-view-git-status/issues"
   },
@@ -66,5 +66,5 @@
     "type": "git",
     "url": "git+https://github.com/subesokun/atom-tree-view-git-status.git"
   },
-  "version": "1.3.0"
+  "version": "1.3.1"
 }
