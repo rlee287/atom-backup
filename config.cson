@@ -14,9 +14,15 @@
     ]
     projectHome: "C:\\Users\\Ryan\\Documents\\Github"
     telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "monokai"
+    ]
   editor:
     backUpBeforeSaving: true
-    fontSize: 15
+    fontFamily: "ubuntu mono"
+    fontSize: 18
+    lineHeight: 1.25
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
@@ -43,6 +49,8 @@
     smoothScrolling: false
   "rst-preview-pandoc":
     pandocOpts: "-frst -thtml --webtex"
+  tabs:
+    enableVcsColoring: true
   welcome:
     showOnStartup: false
 ".console.python.text":
