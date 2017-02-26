@@ -15,8 +15,8 @@
     projectHome: "C:\\Users\\Ryan\\Documents\\Github"
     telemetryConsent: "limited"
     themes: [
-      "one-dark-ui"
-      "monokai"
+      "monokai-tweaked-ui"
+      "monokai-complete-syntax"
     ]
   editor:
     backUpBeforeSaving: true
