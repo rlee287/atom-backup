@@ -14,9 +14,10 @@
  * Examples
  * (To see them, uncomment and save)
  */
-
+/* Compactify tree-view stuff */
 .tree-view {
-  background-color:#212224;
+  // Current is #212224
+  //background-color:darken(mix(#212224,#caca9c,20%),50%);
    font-size: 12px;
   .list-item {
     line-height: 1.9em !important;
@@ -97,7 +98,7 @@ atom-text-editor .gutter .line-number {
     }
   }
 }
-// To style other content in the text editor's shadow DOM, use the ::shadow expression
+// To style other content in the text editor's shadow DOM, use the ::shadow expression NOT-DEPRECATED
 atom-text-editor::shadow .cursor {
   // border-color: red;
 }

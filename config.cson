@@ -46,7 +46,11 @@
       "highlight-selectedDecorationsZIndex": 0
       linter: true
       linterDecorationsZIndex: 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
     smoothScrolling: false
+  pigments:
+    delayBeforeScan: 1000
   "rst-preview-pandoc":
     pandocOpts: "-frst -thtml --webtex"
   tabs:
