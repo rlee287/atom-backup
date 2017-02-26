@@ -15,8 +15,23 @@
  * (To see them, uncomment and save)
  */
 
-// style the background color of the tree view
 .tree-view {
+  background-color:#212224;
+   font-size: 12px;
+  .list-item {
+    line-height: 1.9em !important;
+  }
+  .icon:before {
+    font-size: 1.3em;
+    width: 0.9em;
+    height: 1.2em;
+  }
+  // .project-root-header {
+  //   &::before{
+  //     top: 0.5em !important;
+  //   }
+  // }
+  // style the background color of the tree view
   // background-color: whitesmoke;
 }
 
@@ -24,8 +39,64 @@
 atom-text-editor {
   // color: white;
   // background-color: hsl(180, 24%, 12%);
+  // Current is #0d0d0d for Monokai-syntax
+  // Line color is #caca9c
 }
 
+atom-text-editor .gutter .line-number {
+  //Current is #caca9c
+}
+
+@scrollbar-background-color: #212224;
+@scrollbar-background-color-editor: #0d0d0d;
+@scrollbar-color: lighten(@scrollbar-background-color,25%);
+@scrollbar-color-editor: lighten(@scrollbar-background-color-editor,25%);
+.scrollbars-visible-always {
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: @scrollbar-background-color;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    border: 3px solid @scrollbar-background-color;
+    background: @scrollbar-color;
+    background-clip: content-box;
+  }
+
+  ::-webkit-scrollbar-corner {
+    background: @scrollbar-background-color;
+  }
+
+  ::-webkit-scrollbar-thumb:vertical:active {
+    border-radius: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+  }
+
+  ::-webkit-scrollbar-thumb:horizontal:active {
+    border-radius: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+  }
+
+  atom-text-editor {
+    ::-webkit-scrollbar-track {
+      background: @scrollbar-background-color-editor;
+    }
+    ::-webkit-scrollbar-corner {
+      background: @scrollbar-background-color-editor;
+    }
+    ::-webkit-scrollbar-thumb {
+      border-color: @scrollbar-background-color-editor;
+      background: @scrollbar-color-editor;
+    }
+  }
+}
 // To style other content in the text editor's shadow DOM, use the ::shadow expression
 atom-text-editor::shadow .cursor {
   // border-color: red;
