@@ -50,8 +50,8 @@ atom-text-editor .gutter .line-number {
 
 // Below scrollbar code copied from One Dark with modified colors
 // Backgrounds are the same as the existing colors
-@scrollbar-background-color: #212224;
-@scrollbar-background-color-editor: #0d0d0d;
+@scrollbar-background-color: lighten(#212224,4%);
+@scrollbar-background-color-editor: lighten(#0d0d0d,6%);
 @scrollbar-color: lighten(@scrollbar-background-color,20%);
 @scrollbar-color-editor: lighten(@scrollbar-background-color-editor,25%);
 .scrollbars-visible-always {
@@ -135,7 +135,7 @@ atom-text-editor .gutter .line-number {
     // -webkit-transform: skewX(@tab-skew);
     -webkit-transform: unset;
     // transition: color .1s ease-in;
-    ///box-shadow: inset -1px 1px 0 @tab-border-color, 4px 0px 4px rgba(0,0,0,.3);
+    // box-shadow: inset -1px 1px 0 @tab-border-color, 4px 0px 4px rgba(0,0,0,.3);
     // border: none;
 
     &, &:before {
