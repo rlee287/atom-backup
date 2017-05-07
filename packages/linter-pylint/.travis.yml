@@ -8,15 +8,8 @@ matrix:
 
     - os: linux
       language: python
-      python: "3.5"
+      python: "3.6"
       env: ATOM_CHANNEL=beta
-
-    - os: osx
-      language: generic
-      env: ATOM_CHANNEL=stable
-      before_install:
-        - brew update
-        - brew install python
 
 install:
   - pip install pylint
@@ -25,7 +18,10 @@ before_script:
   - pylint --version
 
 ### Generic setup follows ###
-script: 'curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh'
+script:
+  - curl -s -O https://raw.githubusercontent.com/atom/ci/master/build-package.sh
+  - chmod u+x build-package.sh
+  - ./build-package.sh
 
 notifications:
   email:
@@ -35,6 +31,7 @@ notifications:
 branches:
   only:
     - master
+    - /^greenkeeper/.*$/
 
 git:
   depth: 10

@@ -33,10 +33,9 @@
     userId: "0316c552-8dd2-3fda-e8b5-2d9b73ef2e91"
   "git-diff":
     showIconsInEditorGutter: true
-  linter:
-    lintOnFlyInterval: 1500
-    showErrorPanel: false
+  linter: {}
   "linter-pylint":
+    executablePath: "pylint3"
     rcFile: "C:\\Users\\Ryan\\.atom\\atom.pylintrc"
   minimap:
     plugins:

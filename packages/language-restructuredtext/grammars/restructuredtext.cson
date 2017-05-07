@@ -2,6 +2,7 @@ name: "reStructuredText"
 scopeName: "text.restructuredtext"
 fileTypes: ["rst", "rest"]
 patterns: [ include: "#all" ]
+limitLineLength: no
 
 repository:
 
@@ -64,9 +65,9 @@ repository:
 	# Section border
 	headings:
 		name: "markup.heading.restructuredtext"
-		match: "^[-=~`#\"^+*:.'_]{3,}\\s*$"
+		match: "^(([-=~`#\"^+*:.'_])\\2{2,})(?=\\s*$)"
 		captures:
-			0: name: "punctuation.definition.heading.restructuredtext"
+			1: name: "punctuation.definition.heading.restructuredtext"
 
 
 	# Line blocks
@@ -126,7 +127,7 @@ repository:
 	"interpreted-block":
 		name: "markup.other.command.restructuredtext"
 		contentName: "string.other.interpreted.restructuredtext"
-		begin: "(:)([-A-z0-9:_.]*)(:)(`)"
+		begin: "(:)([-A-z0-9:_.]*?)(:)(`)"
 		end:   "(`)"
 		beginCaptures:
 			1: name: "punctuation.definition.intepreted.restructuredtext"
