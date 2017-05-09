@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-11713-11708-1wy9hm0\\package.tgz",
+        "raw": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117313-10500-1ngihzy\\package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-11713-11708-1wy9hm0\\package.tgz",
-        "spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-11713-11708-1wy9hm0\\package.tgz",
+        "rawSpec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117313-10500-1ngihzy\\package.tgz",
+        "spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117313-10500-1ngihzy\\package.tgz",
         "type": "local"
       },
-      "C:\\Users\\Ryan\\AppData\\Local\\Temp\\apm-install-dir-11713-11708-84tr8s"
+      "C:\\Users\\Ryan\\AppData\\Local\\Temp\\apm-install-dir-117313-10500-1hac9cg"
     ]
   ],
-  "_from": "..\\d-11713-11708-1wy9hm0\\package.tgz",
-  "_id": "language-restructuredtext@1.0.2",
+  "_from": "..\\d-117313-10500-1ngihzy\\package.tgz",
+  "_id": "language-restructuredtext@1.1.0",
   "_inCache": true,
   "_installable": true,
   "_location": "/language-restructuredtext",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-11713-11708-1wy9hm0\\package.tgz",
+    "raw": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117313-10500-1ngihzy\\package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-11713-11708-1wy9hm0\\package.tgz",
-    "spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-11713-11708-1wy9hm0\\package.tgz",
+    "rawSpec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117313-10500-1ngihzy\\package.tgz",
+    "spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117313-10500-1ngihzy\\package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:..\\d-11713-11708-1wy9hm0\\package.tgz",
-  "_shasum": "2082ccebaf7825fc1647ccd864337bc61d3448ee",
+  "_resolved": "file:..\\d-117313-10500-1ngihzy\\package.tgz",
+  "_shasum": "e3af6a6e8bf8c6cb93da84e903e0bbbbb65556d9",
   "_shrinkwrap": null,
-  "_spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-11713-11708-1wy9hm0\\package.tgz",
-  "_where": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\apm-install-dir-11713-11708-84tr8s",
+  "_spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117313-10500-1ngihzy\\package.tgz",
+  "_where": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\apm-install-dir-117313-10500-1hac9cg",
   "bugs": {
     "url": "https://github.com/Lukasa/language-restructuredtext/issues"
   },
@@ -64,5 +64,5 @@
     "type": "git",
     "url": "git+https://github.com/Lukasa/language-restructuredtext.git"
   },
-  "version": "1.0.2"
+  "version": "1.1.0"
 }
