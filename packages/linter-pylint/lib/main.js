@@ -7,6 +7,7 @@
  */
 // eslint-disable-next-line import/no-extraneous-dependencies, import/extensions
 import { CompositeDisposable } from 'atom';
+import path from 'path';
 
 const lazyReq = require('lazy-req')(require);
 
@@ -41,7 +42,8 @@ const filterWhitelistedErrors = (stderr) => {
 const fixPathString = (pathString, fileDir, projectDir) => {
   const string = pathString;
   const fRstring = string.replace(/%f/g, fileDir);
-  const pRstring = fRstring.replace(/%p/g, projectDir);
+  const hRstring = fRstring.replace(/%h/g, path.basename(projectDir));
+  const pRstring = hRstring.replace(/%p/g, projectDir);
   return pRstring;
 };
 
@@ -123,7 +125,7 @@ export default {
         const env = Object.create(process.env, {
           PYTHONPATH: {
             value: [
-              process.env.PYTHONPATH, fileDir, projectDir,
+              process.env.PYTHONPATH,
               fixPathString(this.pythonPath, fileDir, projectDir),
             ].filter(x => !!x).join(delimiter),
             enumerable: true,

@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-117310-4714-126garm/package.tgz",
+        "raw": "/tmp/d-117420-4981-1w2ajqy/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-117310-4714-126garm/package.tgz",
-        "spec": "/tmp/d-117310-4714-126garm/package.tgz",
+        "rawSpec": "/tmp/d-117420-4981-1w2ajqy/package.tgz",
+        "spec": "/tmp/d-117420-4981-1w2ajqy/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-117310-4714-c0miu9"
+      "/tmp/apm-install-dir-117420-4981-1gtd5w4"
     ]
   ],
-  "_from": "../d-117310-4714-126garm/package.tgz",
-  "_id": "linter-pylint@2.0.1",
+  "_from": "../d-117420-4981-1w2ajqy/package.tgz",
+  "_id": "linter-pylint@2.1.0",
   "_inCache": true,
   "_installable": true,
   "_location": "/linter-pylint",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-117310-4714-126garm/package.tgz",
+    "raw": "/tmp/d-117420-4981-1w2ajqy/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-117310-4714-126garm/package.tgz",
-    "spec": "/tmp/d-117310-4714-126garm/package.tgz",
+    "rawSpec": "/tmp/d-117420-4981-1w2ajqy/package.tgz",
+    "spec": "/tmp/d-117420-4981-1w2ajqy/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-117310-4714-126garm/package.tgz",
-  "_shasum": "d393479038d3b811370ef28d6556d0b581f39180",
+  "_resolved": "file:../d-117420-4981-1w2ajqy/package.tgz",
+  "_shasum": "9f036af5d240a452c6df6f4eed90dbd040a05f9c",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-117310-4714-126garm/package.tgz",
-  "_where": "/tmp/apm-install-dir-117310-4714-c0miu9",
+  "_spec": "/tmp/d-117420-4981-1w2ajqy/package.tgz",
+  "_where": "/tmp/apm-install-dir-117420-4981-1gtd5w4",
   "bugs": {
     "url": "https://github.com/AtomLinter/linter-pylint/issues"
   },
@@ -43,7 +43,7 @@
     "executablePath": {
       "type": "string",
       "default": "pylint",
-      "description": "Command or full path to pylint. Use %p for current project directory (no trailing /).",
+      "description": "Command or full path to pylint. Use %p for current project directory (no trailing /) or %h for current project name.",
       "order": 1
     },
     "pythonPath": {
@@ -79,7 +79,7 @@
     }
   },
   "dependencies": {
-    "atom-linter": "^9.0.0",
+    "atom-linter": "^10.0.0",
     "atom-package-deps": "^4.5.0",
     "lazy-req": "^2.0.0"
   },
@@ -138,5 +138,5 @@
     "lint": "eslint .",
     "test": "apm test"
   },
-  "version": "2.0.1"
+  "version": "2.1.0"
 }
