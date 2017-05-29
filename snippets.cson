@@ -32,3 +32,40 @@
     with open(${1:file_name},${2:"w"}) as ${3:file_var}:
         ${3:file_var}.write(${4:text})
     """
+'.source.java':
+  'BufferedReader':
+    'prefix': 'bfr'
+    'body': """
+    BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
+    """
+  'StringTokenizer':
+    'prefix': 'stt'
+    'body': """
+    StringTokenizer ${1:st} = new StringTokenizer(input.readLine());
+    """
+  'Next Token':
+    'prefix': 'nxt'
+    'body':"""
+    ${1:st}.nextToken();
+    """
+  'Proco Import':
+    'prefix': 'pi'
+    'body': """
+    import java.io.*;
+    import java.util.*;
+    import java.lang.*;
+    """
+  'Next Int':
+    'prefix': 'ni'
+    'body':"""
+    int ${1:a} = Integer.parseInt(${2:st}.nextToken());
+    """
+
+  'Main IOException':
+    'prefix': 'mainio'
+    'body': """
+    public static void main(String[] args) throws IOException {
+      BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
+      $1
+    }
+    """
