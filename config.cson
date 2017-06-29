@@ -37,6 +37,7 @@
   "linter-pylint":
     executablePath: "pylint3"
     rcFile: "C:\\Users\\Ryan\\.atom\\atom.pylintrc"
+  "linter-ui-default": {}
   minimap:
     plugins:
       "git-diff": true

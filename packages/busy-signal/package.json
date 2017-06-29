@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-11746-3975-oj2q8i/package.tgz",
+        "raw": "/tmp/d-117527-11724-fry91i/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-11746-3975-oj2q8i/package.tgz",
-        "spec": "/tmp/d-11746-3975-oj2q8i/package.tgz",
+        "rawSpec": "/tmp/d-117527-11724-fry91i/package.tgz",
+        "spec": "/tmp/d-117527-11724-fry91i/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-11746-3975-11938ii"
+      "/tmp/apm-install-dir-117527-11724-y7cs4h"
     ]
   ],
-  "_from": "../d-11746-3975-oj2q8i/package.tgz",
-  "_id": "busy-signal@1.4.1",
+  "_from": "../d-117527-11724-fry91i/package.tgz",
+  "_id": "busy-signal@1.4.3",
   "_inCache": true,
   "_installable": true,
   "_location": "/busy-signal",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-11746-3975-oj2q8i/package.tgz",
+    "raw": "/tmp/d-117527-11724-fry91i/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-11746-3975-oj2q8i/package.tgz",
-    "spec": "/tmp/d-11746-3975-oj2q8i/package.tgz",
+    "rawSpec": "/tmp/d-117527-11724-fry91i/package.tgz",
+    "spec": "/tmp/d-117527-11724-fry91i/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-11746-3975-oj2q8i/package.tgz",
-  "_shasum": "bea1229c77d3ea332466bc878e52ab4a2a394590",
+  "_resolved": "file:../d-117527-11724-fry91i/package.tgz",
+  "_shasum": "6baf37a38bf9468d9bfd491817102a70b50e05f3",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-11746-3975-oj2q8i/package.tgz",
-  "_where": "/tmp/apm-install-dir-11746-3975-11938ii",
+  "_spec": "/tmp/d-117527-11724-fry91i/package.tgz",
+  "_where": "/tmp/apm-install-dir-117527-11724-y7cs4h",
   "bugs": {
     "url": "https://github.com/steelbrain/busy-signal/issues"
   },
@@ -49,11 +49,12 @@
   "dependencies": {
     "disposify": "^1.0.0",
     "escape-html": "^1.0.3",
-    "ms": "^1.0.0"
+    "ms": "^2.0.0"
   },
   "description": "A package that provides an easy to use API to show your package is performing a task",
   "devDependencies": {
     "eslint-config-steelbrain": "^3.0.1",
+    "flow-bin": "^0.47.0",
     "jasmine-fix": "^1.0.1"
   },
   "engines": {
@@ -85,5 +86,5 @@
     "lint": "eslint .",
     "test": "apm test"
   },
-  "version": "1.4.1"
+  "version": "1.4.3"
 }
