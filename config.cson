@@ -5,6 +5,7 @@
     disabledPackages: [
       "spell-check"
       "rst-preview-pandoc"
+      "bookmarks"
     ]
     ignoredNames: [
       ".git"
@@ -40,8 +41,10 @@
   "linter-pylint":
     disableTimeout: true
     rcFile: "C:\\Users\\Ryan\\.atom\\atom.pylintrc"
-  "linter-ui-default": {}
+  "linter-ui-default":
+    panelHeight: 53
   minimap:
+    disablePythonDocLinks: true
     plugins:
       "git-diff": true
       "git-diffDecorationsZIndex": 0
