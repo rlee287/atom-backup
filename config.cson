@@ -1,4 +1,6 @@
 "*":
+  "autocomplete-clang":
+    ignoreClangErrors: false
   core:
     disabledPackages: [
       "spell-check"
