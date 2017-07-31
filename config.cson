@@ -6,6 +6,7 @@
       "spell-check"
       "rst-preview-pandoc"
       "bookmarks"
+      "github"
     ]
     ignoredNames: [
       ".git"
