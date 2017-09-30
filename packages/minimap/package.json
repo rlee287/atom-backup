@@ -2,39 +2,39 @@
   "_args": [
     [
       {
-        "raw": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117720-8444-1lzgwtn.nx1ht49529\\package.tgz",
+        "raw": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117827-5720-6l9fhn.7ei8rdlsor\\package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117720-8444-1lzgwtn.nx1ht49529\\package.tgz",
-        "spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117720-8444-1lzgwtn.nx1ht49529\\package.tgz",
+        "rawSpec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117827-5720-6l9fhn.7ei8rdlsor\\package.tgz",
+        "spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117827-5720-6l9fhn.7ei8rdlsor\\package.tgz",
         "type": "local"
       },
-      "C:\\Users\\Ryan\\AppData\\Local\\Temp\\apm-install-dir-117720-8444-11tusro.qyjl2l0udi"
+      "C:\\Users\\Ryan\\AppData\\Local\\Temp\\apm-install-dir-117827-5720-owyzky.kr7htcsor"
     ]
   ],
-  "_from": "..\\d-117720-8444-1lzgwtn.nx1ht49529\\package.tgz",
-  "_id": "minimap@4.29.6",
+  "_from": "..\\d-117827-5720-6l9fhn.7ei8rdlsor\\package.tgz",
+  "_id": "minimap@4.29.7",
   "_inCache": true,
   "_location": "/minimap",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117720-8444-1lzgwtn.nx1ht49529\\package.tgz",
+    "raw": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117827-5720-6l9fhn.7ei8rdlsor\\package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117720-8444-1lzgwtn.nx1ht49529\\package.tgz",
-    "spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117720-8444-1lzgwtn.nx1ht49529\\package.tgz",
+    "rawSpec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117827-5720-6l9fhn.7ei8rdlsor\\package.tgz",
+    "spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117827-5720-6l9fhn.7ei8rdlsor\\package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:..\\d-117720-8444-1lzgwtn.nx1ht49529\\package.tgz",
-  "_shasum": "4a0a2f27e91527ac32b7a132707f8d2b01ccac29",
+  "_resolved": "file:..\\d-117827-5720-6l9fhn.7ei8rdlsor\\package.tgz",
+  "_shasum": "55a8dfc8003d29c8fc895a8583ddf4a80e85191e",
   "_shrinkwrap": null,
-  "_spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117720-8444-1lzgwtn.nx1ht49529\\package.tgz",
-  "_where": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\apm-install-dir-117720-8444-11tusro.qyjl2l0udi",
+  "_spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117827-5720-6l9fhn.7ei8rdlsor\\package.tgz",
+  "_where": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\apm-install-dir-117827-5720-owyzky.kr7htcsor",
   "author": {
     "name": "Fangdun Cai",
     "email": "cfddream@gmail.com"
@@ -255,7 +255,7 @@
       "IntersectionObserver"
     ]
   },
-  "version": "4.29.6",
+  "version": "4.29.7",
   "viewProviders": [
     "minimapViewProvider"
   ],
@@ -314,7 +314,7 @@
       },
       {
         "name": "es5-ext",
-        "version": "0.10.29",
+        "version": "0.10.30",
         "path": "node_modules\\es5-ext\\index.js"
       },
       {
@@ -374,12 +374,12 @@
       },
       {
         "name": "grim",
-        "version": "2.0.1",
+        "version": "2.0.2",
         "path": "node_modules\\grim\\lib\\grim.js"
       },
       {
         "name": "event-kit",
-        "version": "2.3.0",
+        "version": "2.4.0",
         "path": "node_modules\\grim\\node_modules\\event-kit\\lib\\event-kit.js"
       },
       {
@@ -429,7 +429,7 @@
       },
       {
         "name": "rimraf",
-        "version": "2.6.1",
+        "version": "2.6.2",
         "path": "node_modules\\rimraf\\rimraf.js"
       },
       {

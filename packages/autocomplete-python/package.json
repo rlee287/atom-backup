@@ -2,39 +2,39 @@
   "_args": [
     [
       {
-        "raw": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117720-1108-858qfo.xnlzugnwmi\\package.tgz",
+        "raw": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117827-8752-gv8pye.n8zrggb9\\package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117720-1108-858qfo.xnlzugnwmi\\package.tgz",
-        "spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117720-1108-858qfo.xnlzugnwmi\\package.tgz",
+        "rawSpec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117827-8752-gv8pye.n8zrggb9\\package.tgz",
+        "spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117827-8752-gv8pye.n8zrggb9\\package.tgz",
         "type": "local"
       },
-      "C:\\Users\\Ryan\\AppData\\Local\\Temp\\apm-install-dir-117720-1108-1ybi2hg.mu1f758kt9"
+      "C:\\Users\\Ryan\\AppData\\Local\\Temp\\apm-install-dir-117827-8752-u61afj.dbgr8xs9k9"
     ]
   ],
-  "_from": "..\\d-117720-1108-858qfo.xnlzugnwmi\\package.tgz",
-  "_id": "autocomplete-python@1.10.2",
+  "_from": "..\\d-117827-8752-gv8pye.n8zrggb9\\package.tgz",
+  "_id": "autocomplete-python@1.10.3",
   "_inCache": true,
   "_location": "/autocomplete-python",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117720-1108-858qfo.xnlzugnwmi\\package.tgz",
+    "raw": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117827-8752-gv8pye.n8zrggb9\\package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117720-1108-858qfo.xnlzugnwmi\\package.tgz",
-    "spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117720-1108-858qfo.xnlzugnwmi\\package.tgz",
+    "rawSpec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117827-8752-gv8pye.n8zrggb9\\package.tgz",
+    "spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117827-8752-gv8pye.n8zrggb9\\package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:..\\d-117720-1108-858qfo.xnlzugnwmi\\package.tgz",
-  "_shasum": "ce76f37d1aedb8a868bcef9ccb3518dcff35abd1",
+  "_resolved": "file:..\\d-117827-8752-gv8pye.n8zrggb9\\package.tgz",
+  "_shasum": "aa27016a3d2165de20ce27c5c523e155e5a7d4f0",
   "_shrinkwrap": null,
-  "_spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117720-1108-858qfo.xnlzugnwmi\\package.tgz",
-  "_where": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\apm-install-dir-117720-1108-1ybi2hg.mu1f758kt9",
+  "_spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117827-8752-gv8pye.n8zrggb9\\package.tgz",
+  "_where": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\apm-install-dir-117827-8752-u61afj.dbgr8xs9k9",
   "bugs": {
     "url": "https://github.com/autocomplete-python/autocomplete-python/issues"
   },
@@ -99,7 +99,7 @@
     "type": "git",
     "url": "git+https://github.com/autocomplete-python/autocomplete-python.git"
   },
-  "version": "1.10.2",
+  "version": "1.10.3",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [
@@ -125,7 +125,7 @@
       },
       {
         "name": "es5-ext",
-        "version": "0.10.29",
+        "version": "0.10.30",
         "path": "node_modules\\es5-ext\\index.js"
       },
       {

@@ -2,39 +2,39 @@
   "_args": [
     [
       {
-        "raw": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117621-10120-1kyjsc3.ottpqa1yvi\\package.tgz",
+        "raw": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117827-8268-prty0l.bma50icnmi\\package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117621-10120-1kyjsc3.ottpqa1yvi\\package.tgz",
-        "spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117621-10120-1kyjsc3.ottpqa1yvi\\package.tgz",
+        "rawSpec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117827-8268-prty0l.bma50icnmi\\package.tgz",
+        "spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117827-8268-prty0l.bma50icnmi\\package.tgz",
         "type": "local"
       },
-      "C:\\Users\\Ryan\\AppData\\Local\\Temp\\apm-install-dir-117621-10120-16111kx.tkzibjra4i"
+      "C:\\Users\\Ryan\\AppData\\Local\\Temp\\apm-install-dir-117827-8268-6z33y3.eoxvkg9zfr"
     ]
   ],
-  "_from": "..\\d-117621-10120-1kyjsc3.ottpqa1yvi\\package.tgz",
-  "_id": "minimap-linter@2.0.2",
+  "_from": "..\\d-117827-8268-prty0l.bma50icnmi\\package.tgz",
+  "_id": "minimap-linter@2.1.1",
   "_inCache": true,
   "_location": "/minimap-linter",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117621-10120-1kyjsc3.ottpqa1yvi\\package.tgz",
+    "raw": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117827-8268-prty0l.bma50icnmi\\package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117621-10120-1kyjsc3.ottpqa1yvi\\package.tgz",
-    "spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117621-10120-1kyjsc3.ottpqa1yvi\\package.tgz",
+    "rawSpec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117827-8268-prty0l.bma50icnmi\\package.tgz",
+    "spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117827-8268-prty0l.bma50icnmi\\package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:..\\d-117621-10120-1kyjsc3.ottpqa1yvi\\package.tgz",
-  "_shasum": "1d35085fd7903a280360a6ab7f9e2be2fd5a5eb2",
+  "_resolved": "file:..\\d-117827-8268-prty0l.bma50icnmi\\package.tgz",
+  "_shasum": "2feb76cd1ff68294aba05a9d15ed4160d25dec4f",
   "_shrinkwrap": null,
-  "_spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117621-10120-1kyjsc3.ottpqa1yvi\\package.tgz",
-  "_where": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\apm-install-dir-117621-10120-16111kx.tkzibjra4i",
+  "_spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117827-8268-prty0l.bma50icnmi\\package.tgz",
+  "_where": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\apm-install-dir-117827-8268-6z33y3.eoxvkg9zfr",
   "bugs": {
     "url": "https://github.com/AtomLinter/atom-minimap-linter/issues"
   },
@@ -57,6 +57,11 @@
       "versions": {
         "1.0.0": "consumeMinimapServiceV1"
       }
+    },
+    "diagnostics-store": {
+      "versions": {
+        "0.3.0": "consumeDiagnosticUpdates"
+      }
     }
   },
   "dependencies": {
@@ -64,9 +69,9 @@
   },
   "description": "Minimap display for Linter messages",
   "devDependencies": {
-    "eslint": "^3.16.1",
-    "eslint-config-airbnb-base": "^11.1.1",
-    "eslint-plugin-import": "^2.2.0",
+    "eslint": "^4.6.0",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0",
     "jasmine-fix": "^1.0.1"
   },
   "engines": {
@@ -120,7 +125,11 @@
     "type": "git",
     "url": "git+https://github.com/AtomLinter/atom-minimap-linter.git"
   },
-  "version": "2.0.2",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "apm test"
+  },
+  "version": "2.1.1",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [
@@ -181,7 +190,7 @@
       },
       {
         "name": "semver",
-        "version": "5.3.0",
+        "version": "5.4.1",
         "path": "node_modules\\semver\\semver.js"
       },
       {
@@ -192,6 +201,7 @@
     ],
     "extensions": {
       ".js": [
+        "lib\\helpers.js",
         "lib\\minimap-linter-binding.js",
         "lib\\minimap-linter.js",
         "node_modules\\atom-package-deps\\lib\\helpers.js",
