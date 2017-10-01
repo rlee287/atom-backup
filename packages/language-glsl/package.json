@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-117529-4371-1hatgre/package.tgz",
+        "raw": "/tmp/d-117830-7930-15wuxvl/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-117529-4371-1hatgre/package.tgz",
-        "spec": "/tmp/d-117529-4371-1hatgre/package.tgz",
+        "rawSpec": "/tmp/d-117830-7930-15wuxvl/package.tgz",
+        "spec": "/tmp/d-117830-7930-15wuxvl/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-117529-4371-1a6b5p7"
+      "/tmp/apm-install-dir-117830-7930-1pb45kc"
     ]
   ],
-  "_from": "../d-117529-4371-1hatgre/package.tgz",
-  "_id": "language-glsl@2.0.1",
+  "_from": "../d-117830-7930-15wuxvl/package.tgz",
+  "_id": "language-glsl@2.0.2",
   "_inCache": true,
   "_installable": true,
   "_location": "/language-glsl",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-117529-4371-1hatgre/package.tgz",
+    "raw": "/tmp/d-117830-7930-15wuxvl/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-117529-4371-1hatgre/package.tgz",
-    "spec": "/tmp/d-117529-4371-1hatgre/package.tgz",
+    "rawSpec": "/tmp/d-117830-7930-15wuxvl/package.tgz",
+    "spec": "/tmp/d-117830-7930-15wuxvl/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-117529-4371-1hatgre/package.tgz",
-  "_shasum": "79bda66cfa0aa96659a445ae676a6e40757b31b1",
+  "_resolved": "file:../d-117830-7930-15wuxvl/package.tgz",
+  "_shasum": "a1e49d10f8edd3e08105875a803b123facad4d0d",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-117529-4371-1hatgre/package.tgz",
-  "_where": "/tmp/apm-install-dir-117529-4371-1a6b5p7",
+  "_spec": "/tmp/d-117830-7930-15wuxvl/package.tgz",
+  "_where": "/tmp/apm-install-dir-117830-7930-1pb45kc",
   "bugs": {
     "url": "https://github.com/hughsk/language-glsl/issues"
   },
@@ -63,5 +63,5 @@
     "type": "git",
     "url": "git+https://github.com/hughsk/language-glsl.git"
   },
-  "version": "2.0.1"
+  "version": "2.0.2"
 }
