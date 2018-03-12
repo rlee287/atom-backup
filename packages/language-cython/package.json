@@ -1,0 +1,58 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117926-25998-16rt1ss.2an1li8uxr/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-117926-25998-16rt1ss.2an1li8uxr/package.tgz",
+        "spec": "/tmp/d-117926-25998-16rt1ss.2an1li8uxr/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-117926-25998-gmi5ds.1p8hicz0k9"
+    ]
+  ],
+  "_from": "../d-117926-25998-16rt1ss.2an1li8uxr/package.tgz",
+  "_id": "language-cython@0.3.0",
+  "_inCache": true,
+  "_location": "/language-cython",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-117926-25998-16rt1ss.2an1li8uxr/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-117926-25998-16rt1ss.2an1li8uxr/package.tgz",
+    "spec": "/tmp/d-117926-25998-16rt1ss.2an1li8uxr/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117926-25998-16rt1ss.2an1li8uxr/package.tgz",
+  "_shasum": "c09cbb6d9f21ecbeb74115eae14e2a10ce2a8cf7",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-117926-25998-16rt1ss.2an1li8uxr/package.tgz",
+  "_where": "/tmp/apm-install-dir-117926-25998-gmi5ds.1p8hicz0k9",
+  "bugs": {
+    "url": "https://github.com/pierriko/language-cython/issues"
+  },
+  "dependencies": {},
+  "description": "Cython language support in Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/pierriko/language-cython#readme",
+  "license": "MIT",
+  "name": "language-cython",
+  "optionalDependencies": {},
+  "readme": "# Cython language support in Atom [![Build Status](https://travis-ci.org/pierriko/language-cython.svg?branch=master)](https://travis-ci.org/pierriko/language-cython)\n\nAdds syntax highlighting to Cython files in Atom.\n\nOriginally [converted](http://atom.io/docs/latest/converting-a-text-mate-bundle)\nfrom the [Cython TextMate bundle](http://svn.textmate.org/trunk/Review/Bundles/Cython.tmbundle).\n\nContributions are greatly appreciated. Please fork this repository and open a\npull request to add snippets, make grammar tweaks, etc.\n\n![atom cython](http://pierriko.com/language-cython/atom-cython.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pierriko/language-cython.git"
+  },
+  "version": "0.3.0"
+}

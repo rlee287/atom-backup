@@ -18,6 +18,7 @@ const os = lazyReq('os');
 // Some local variables
 const errorWhitelist = [
   /^No config file found, using default configuration$/,
+  /^Using config file /,
 ];
 
 const getProjectDir = (filePath) => {
@@ -34,8 +35,7 @@ const filterWhitelistedErrors = (stderr) => {
   const lines = stderr.split(os().EOL).filter(line => !!line);
   const filteredLines = lines.filter(line =>
     // Only keep the line if it is not ignored
-    !errorWhitelist.some(errorRegex => errorRegex.test(line)),
-  );
+    !errorWhitelist.some(errorRegex => errorRegex.test(line)));
   return filteredLines.join(os().EOL);
 };
 

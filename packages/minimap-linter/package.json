@@ -2,40 +2,39 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-117830-7953-1pjbf20/package.tgz",
+        "raw": "/tmp/d-117925-16155-dtvuzt.llrb9sh5mi/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-117830-7953-1pjbf20/package.tgz",
-        "spec": "/tmp/d-117830-7953-1pjbf20/package.tgz",
+        "rawSpec": "/tmp/d-117925-16155-dtvuzt.llrb9sh5mi/package.tgz",
+        "spec": "/tmp/d-117925-16155-dtvuzt.llrb9sh5mi/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-117830-7953-dcox9m"
+      "/tmp/apm-install-dir-117925-16155-1vm6dud.fqhsuzyqfr"
     ]
   ],
-  "_from": "../d-117830-7953-1pjbf20/package.tgz",
-  "_id": "minimap-linter@2.1.1",
+  "_from": "../d-117925-16155-dtvuzt.llrb9sh5mi/package.tgz",
+  "_id": "minimap-linter@2.1.3",
   "_inCache": true,
-  "_installable": true,
   "_location": "/minimap-linter",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-117830-7953-1pjbf20/package.tgz",
+    "raw": "/tmp/d-117925-16155-dtvuzt.llrb9sh5mi/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-117830-7953-1pjbf20/package.tgz",
-    "spec": "/tmp/d-117830-7953-1pjbf20/package.tgz",
+    "rawSpec": "/tmp/d-117925-16155-dtvuzt.llrb9sh5mi/package.tgz",
+    "spec": "/tmp/d-117925-16155-dtvuzt.llrb9sh5mi/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-117830-7953-1pjbf20/package.tgz",
-  "_shasum": "2feb76cd1ff68294aba05a9d15ed4160d25dec4f",
+  "_resolved": "file:../d-117925-16155-dtvuzt.llrb9sh5mi/package.tgz",
+  "_shasum": "7fc542d4084c090c5f3b61fc1ed261d975826d8f",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-117830-7953-1pjbf20/package.tgz",
-  "_where": "/tmp/apm-install-dir-117830-7953-dcox9m",
+  "_spec": "/tmp/d-117925-16155-dtvuzt.llrb9sh5mi/package.tgz",
+  "_where": "/tmp/apm-install-dir-117925-16155-1vm6dud.fqhsuzyqfr",
   "bugs": {
     "url": "https://github.com/AtomLinter/atom-minimap-linter/issues"
   },
@@ -70,8 +69,8 @@
   },
   "description": "Minimap display for Linter messages",
   "devDependencies": {
-    "eslint": "^4.6.0",
-    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.7.0",
     "jasmine-fix": "^1.0.1"
   },
@@ -120,7 +119,7 @@
       }
     }
   },
-  "readme": "# minimap-linter package\n\nAtom package to display linter markers on minimap.\n\n![minimap-linter](https://raw.githubusercontent.com/nesukun/atom-minimap-linter/master/minimap-linter.gif)\n",
+  "readme": "# minimap-linter package\n\nA plugin for [minimap][] that shows the messages from [linter][] and\n[atom-ide-ui][], allowing you to get a quick overview of where you have lint\nissues in your code.\n\n![minimap-linter](https://raw.githubusercontent.com/nesukun/atom-minimap-linter/master/minimap-linter.gif)\n\n[minimap]: https://atom.io/packages/minimap\n[linter]: https://atom.io/packages/linter\n[atom-ide-ui]: https://atom.io/packages/atom-ide-ui\n",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
@@ -130,5 +129,5 @@
     "lint": "eslint .",
     "test": "apm test"
   },
-  "version": "2.1.1"
+  "version": "2.1.3"
 }

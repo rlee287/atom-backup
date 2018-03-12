@@ -2,40 +2,39 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-117830-7930-15wuxvl/package.tgz",
+        "raw": "/tmp/d-117102-8678-q995zq.0vaaj4te29/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-117830-7930-15wuxvl/package.tgz",
-        "spec": "/tmp/d-117830-7930-15wuxvl/package.tgz",
+        "rawSpec": "/tmp/d-117102-8678-q995zq.0vaaj4te29/package.tgz",
+        "spec": "/tmp/d-117102-8678-q995zq.0vaaj4te29/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-117830-7930-1pb45kc"
+      "/tmp/apm-install-dir-117102-8678-1uimo7t.vz5bgr2j4i"
     ]
   ],
-  "_from": "../d-117830-7930-15wuxvl/package.tgz",
-  "_id": "language-glsl@2.0.2",
+  "_from": "../d-117102-8678-q995zq.0vaaj4te29/package.tgz",
+  "_id": "language-glsl@2.0.4",
   "_inCache": true,
-  "_installable": true,
   "_location": "/language-glsl",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-117830-7930-15wuxvl/package.tgz",
+    "raw": "/tmp/d-117102-8678-q995zq.0vaaj4te29/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-117830-7930-15wuxvl/package.tgz",
-    "spec": "/tmp/d-117830-7930-15wuxvl/package.tgz",
+    "rawSpec": "/tmp/d-117102-8678-q995zq.0vaaj4te29/package.tgz",
+    "spec": "/tmp/d-117102-8678-q995zq.0vaaj4te29/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-117830-7930-15wuxvl/package.tgz",
-  "_shasum": "a1e49d10f8edd3e08105875a803b123facad4d0d",
+  "_resolved": "file:../d-117102-8678-q995zq.0vaaj4te29/package.tgz",
+  "_shasum": "25ff50c6098ba406ce7eb81e110c527e0672c369",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-117830-7930-15wuxvl/package.tgz",
-  "_where": "/tmp/apm-install-dir-117830-7930-1pb45kc",
+  "_spec": "/tmp/d-117102-8678-q995zq.0vaaj4te29/package.tgz",
+  "_where": "/tmp/apm-install-dir-117102-8678-1uimo7t.vz5bgr2j4i",
   "bugs": {
     "url": "https://github.com/hughsk/language-glsl/issues"
   },
@@ -57,11 +56,11 @@
   "license": "MIT",
   "name": "language-glsl",
   "optionalDependencies": {},
-  "readme": "# language-glsl package\n\nAdds syntax highlighting and snippets to GLSL files in Atom.\n\nOriginally\n[converted](http://atom.io/docs/latest/converting-a-text-mate-bundle)\nfrom [polym0rph](https://github.com/polym0rph)'s\n[GLSL TextMate bundle](https://github.com/polym0rph/GLSL.tmbundle).\n\nExtended to support [glslify](http://github.com/stackgl/glslify) require/export\nstatements.\n\n![language-glsl](http://imgur.com/dJGHJ1m.png)\n",
+  "readme": "# language-glsl package\n\nAdds syntax highlighting and snippets to GLSL files in Atom.\n\nOriginally\n[converted](http://atom.io/docs/latest/converting-a-text-mate-bundle)\nfrom [polym0rph](https://github.com/polym0rph)'s\n[GLSL TextMate bundle](https://github.com/polym0rph/GLSL.tmbundle).\n\nExtended to support [glslify](http://github.com/stackgl/glslify) require/export\nstatements.\n\n<img src=\"https://cl.ly/2S402M3x1602/screenshot.png\" alt=\"screenshot\" width=\"434\">\n",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hughsk/language-glsl.git"
   },
-  "version": "2.0.2"
+  "version": "2.0.4"
 }
