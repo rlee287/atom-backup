@@ -51,8 +51,8 @@
     ]
   editor:
     backUpBeforeSaving: true
-    fontFamily: "ubuntu mono"
-    fontSize: 18
+    fontFamily: "fira code"
+    fontSize: 16
     lineHeight: 1.25
     showIndentGuide: true
     showInvisibles: true
