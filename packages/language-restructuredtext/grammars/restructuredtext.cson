@@ -3,6 +3,17 @@ scopeName: "text.restructuredtext"
 fileTypes: ["rst", "rest"]
 patterns: [ include: "#all" ]
 limitLineLength: no
+firstLineMatch: """(?x)
+	# Emacs modeline
+	-\\*-(?:\\s*(?=[^:;\\s]+\\s*-\\*-)|(?:.*?[;\\s]|(?<=-\\*-))mode\\s*:\\s*)
+		rst
+	(?=[\\s;]|(?<![-*])-\\*-).*?-\\*-
+	|
+	# Vim modeline
+	(?:(?:\\s|^)vi(?:m[<=>]?\\d+|m)?|\\sex)(?=:(?=\\s*set?\\s[^\\n:]+:)|:(?!\\s* set?\\s))(?:(?:\\s|\\s*:\\s*)\\w*(?:\\s*=(?:[^\\n\\\\\\s]|\\\\.)*)?)*[\\s:](?:filetype|ft|syntax)\\s*=
+		rst
+	(?=\\s|:|$)
+"""
 
 repository:
 
@@ -95,19 +106,21 @@ repository:
 			# Bold
 			{
 				name: "markup.bold.restructuredtext"
-				match: "(\\*\\*)[^\\*\\s][^*]*(\\*\\*)"
-				captures:
-					1: "name": "punctuation.definition.bold.restructuredtext"
-					2: "name": "punctuation.definition.bold.restructuredtext"
+				begin: "\\*\\*(?=[^\\*\\s])"
+				end:   "\\*\\*|^(?=\\s*$)"
+				beginCaptures: 0: "name": "punctuation.definition.bold.begin.restructuredtext"
+				endCaptures:   0: "name": "punctuation.definition.bold.end.restructuredtext"
+				patterns: [include: "#inlines"]
 			}
 
 			# Italic
 			{
 				name: "markup.italic.restructuredtext"
-				match: "(?<!\\\\)(\\*)[^\\*\\s][^*]*(?<!\\\\)(\\*)"
-				captures:
-					1: name: "punctuation.definition.italic.restructuredtext"
-					2: name: "punctuation.definition.italic.restructuredtext"
+				begin: "(?<!\\\\)\\*(?=[^\\*\\s])"
+				end:   "(?<!\\\\)\\*|^(?=\\s*$)"
+				beginCaptures: 0: name: "punctuation.definition.italic.begin.restructuredtext"
+				endCaptures:   0: name: "punctuation.definition.italic.end.restructuredtext"
+				patterns: [include: "#inlines"]
 			}
 		]
 
@@ -117,8 +130,8 @@ repository:
 		name: "markup.raw.restructuredtext"
 		begin: "``"
 		end:   "``((?=[^`\\w\\d])|$)"
-		captures:
-			0: name: "punctuation.definition.raw.restructuredtext"
+		beginCaptures: 0: name: "punctuation.definition.raw.begin.restructuredtext"
+		endCaptures:   0: name: "punctuation.definition.raw.end.restructuredtext"
 
 
 
@@ -346,14 +359,11 @@ repository:
 
 			{
 				name: "meta.link.reference"
-				begin: "`"
-				end:   "`__?"
-				beginCaptures: 0: name: "punctuation.definition.link.restructuredtext"
-				endCaptures:   0: name: "punctuation.definition.link.restructuredtext"
-				patterns: [
-					name: "string.other.link.title.restructuredtext"
-					match: "[^`]+"
-				]
+				match: "(`)(.*?)(`__?)"
+				captures:
+					1: name: "punctuation.definition.link.restructuredtext"
+					2: name: "string.other.link.title.restructuredtext"
+					3: name: "punctuation.definition.link.restructuredtext"
 			}
 		]
 
@@ -539,7 +549,7 @@ repository:
 			# HTML
 			{
 				begin: "^([ \\t]*)(\\.\\.)\\s(raw)(::)\\s+(html)\\s*$"
-				end:   "^(?!\\1[ \\t])"
+				end:   "^(?!\\s*$|\\1[ \\t]+\\S)"
 				patterns: [include: "text.html.basic"]
 				beginCaptures:
 					2: name: "punctuation.definition.directive.restructuredtext"
@@ -566,6 +576,19 @@ repository:
 				contentName: "source.embedded.js"
 				patterns: [include: "source.js"]
 				begin: "^([ \\t]*)(\\.\\.)\\s(code(?:-block)?)(::)\\s+(js|javascript)\\s*$"
+				end:   "^(?!\\s*$|\\1[ \\t]+\\S)"
+				beginCaptures:
+					2: name: "punctuation.definition.directive.restructuredtext"
+					3: name: "support.directive.restructuredtext"
+					4: name: "punctuation.separator.key-value.restructuredtext"
+					5: name: "entity.name.directive.restructuredtext"
+			}
+
+			# TypeScript
+			{
+				contentName: "source.embedded.ts"
+				patterns: [include: "source.ts"]
+				begin: "^([ \\t]*)(\\.\\.)\\s(code(?:-block)?)(::)\\s+(typescript)\\s*$"
 				end:   "^(?!\\s*$|\\1[ \\t]+\\S)"
 				beginCaptures:
 					2: name: "punctuation.definition.directive.restructuredtext"
@@ -696,6 +719,45 @@ repository:
 				contentName: "source.embedded.python"
 				patterns: [include: "source.python"]
 				begin: "^([ \\t]*)(\\.\\.)\\s(code(?:-block)?)(::)\\s+(py(thon)?|sage)\\s*$"
+				end:   "^(?!\\s*$|\\1[ \\t]+\\S)"
+				beginCaptures:
+					2: name: "punctuation.definition.directive.restructuredtext"
+					3: name: "support.directive.restructuredtext"
+					4: name: "punctuation.separator.key-value.restructuredtext"
+					5: name: "entity.name.directive.restructuredtext"
+			}
+
+			# IPython
+			{
+				contentName: "source.embedded.python"
+				patterns: [include: "source.python"]
+				begin: "^([ \\t]*)(\\.\\.)\\s(ipython)(::)\\s+(py(thon)?)\\s*$"
+				end:   "^(?!\\s*$|\\1[ \\t]+\\S)"
+				beginCaptures:
+					2: name: "punctuation.definition.directive.restructuredtext"
+					3: name: "support.directive.restructuredtext"
+					4: name: "punctuation.separator.key-value.restructuredtext"
+					5: name: "entity.name.directive.restructuredtext"
+			}
+
+			# Stata
+			{
+				contentName: "source.embedded.stata"
+				patterns: [include: "source.stata"]
+				begin: "^([ \\t]*)(\\.\\.)\\s(code(?:-block)?)(::)\\s+(stata)\\s*$"
+				end:   "^(?!\\s*$|\\1[ \\t]+\\S)"
+				beginCaptures:
+					2: name: "punctuation.definition.directive.restructuredtext"
+					3: name: "support.directive.restructuredtext"
+					4: name: "punctuation.separator.key-value.restructuredtext"
+					5: name: "entity.name.directive.restructuredtext"
+			}
+
+			# SAS
+			{
+				contentName: "source.embedded.python"
+				patterns: [include: "source.python"]
+				begin: "^([ \\t]*)(\\.\\.)\\s(code(?:-block)?)(::)\\s+(sas)\\s*$"
 				end:   "^(?!\\s*$|\\1[ \\t]+\\S)"
 				beginCaptures:
 					2: name: "punctuation.definition.directive.restructuredtext"

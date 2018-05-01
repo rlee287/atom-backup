@@ -3,11 +3,42 @@ Change Log
 
 This project adheres to [Semantic Versioning](http://semver.org).
 
-[Unpublished]: https://github.com/Lukasa/language-restructuredtext/compare/v1.1.0...HEAD
+[Unpublished]: https://github.com/Lukasa/language-restructuredtext/compare/v1.1.2...HEAD
+
+
+[v1.1.2]
+------------------------------------------------------------------------
+**April 16th, 2018**  
+* [[`#55`][]]: Fixed broken HTML hinting in `.. raw:: html` directives
+* [[`#61`][]]: Fixed missing highlighting for multi-line bold/italics
+* [[`#63`][]]: Added support for `.. ipython:: python`
+* [[`#63`][]]: Added support for embedded [Stata][] and [SAS][] code blocks
+
+[v1.1.2]: https://github.com/Lukasa/language-restructuredtext/releases/tag/v1.1.2
+[`#55`]:  https://github.com/Lukasa/language-restructuredtext/issues/55
+[`#61`]:  https://github.com/Lukasa/language-restructuredtext/issues/61
+[`#63`]:  https://github.com/Lukasa/language-restructuredtext/issues/63
+[Stata]:  https://atom.io/packages/language-stata
+[SAS]:    https://atom.io/packages/language-sas
+
+
+[v1.1.1]
+------------------------------------------------------------------------
+**January 19th, 2018**  
+* [[`#57`][]]: Fixed overzealous matching of inline link references
+* [[`#57`][]]: Added support for embedded TypeScript highlighting
+* [[`#59`][]]: Added extra snippets for roles and directives
+* [[`#62`][]]: Added `firstLineMatch` support for modeline recognition
+
+[v1.1.1]: https://github.com/Lukasa/language-restructuredtext/releases/tag/v1.1.1
+[`#57`]:  https://github.com/Lukasa/language-restructuredtext/pull/57
+[`#59`]:  https://github.com/Lukasa/language-restructuredtext/pull/59
+[`#62`]:  https://github.com/Lukasa/language-restructuredtext/issues/62
 
 
 [v1.1.0]
 ------------------------------------------------------------------------
+**April 8th, 2017**  
 * Added this change-log
 * Added editor command to update length of borders to fit their title
 * Disabled line-highlighting limit introduced in [Atom 1.15][#13820].

@@ -2,40 +2,39 @@
   "_args": [
     [
       {
-        "raw": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117428-12032-3gwb5s.whn9pe3ik9\\package.tgz",
+        "raw": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-118330-20384-ox1707.v4lt7yzaor\\package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117428-12032-3gwb5s.whn9pe3ik9\\package.tgz",
-        "spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117428-12032-3gwb5s.whn9pe3ik9\\package.tgz",
+        "rawSpec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-118330-20384-ox1707.v4lt7yzaor\\package.tgz",
+        "spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-118330-20384-ox1707.v4lt7yzaor\\package.tgz",
         "type": "local"
       },
-      "C:\\Users\\Ryan\\AppData\\Local\\Temp\\apm-install-dir-117428-12032-an3zg8.9n7nj3jtt9"
+      "C:\\Users\\Ryan\\AppData\\Local\\Temp\\apm-install-dir-118330-20384-2jv2si.is8qvt2o6r"
     ]
   ],
-  "_from": "..\\d-117428-12032-3gwb5s.whn9pe3ik9\\package.tgz",
-  "_id": "linter-pylint@2.1.0",
+  "_from": "..\\d-118330-20384-ox1707.v4lt7yzaor\\package.tgz",
+  "_id": "linter-pylint@2.1.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/linter-pylint",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117428-12032-3gwb5s.whn9pe3ik9\\package.tgz",
+    "raw": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-118330-20384-ox1707.v4lt7yzaor\\package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117428-12032-3gwb5s.whn9pe3ik9\\package.tgz",
-    "spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117428-12032-3gwb5s.whn9pe3ik9\\package.tgz",
+    "rawSpec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-118330-20384-ox1707.v4lt7yzaor\\package.tgz",
+    "spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-118330-20384-ox1707.v4lt7yzaor\\package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:..\\d-117428-12032-3gwb5s.whn9pe3ik9\\package.tgz",
-  "_shasum": "9f036af5d240a452c6df6f4eed90dbd040a05f9c",
+  "_resolved": "file:..\\d-118330-20384-ox1707.v4lt7yzaor\\package.tgz",
+  "_shasum": "1e3f493022033b23e1c1938f83b0e6c932066644",
   "_shrinkwrap": null,
-  "_spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-117428-12032-3gwb5s.whn9pe3ik9\\package.tgz",
-  "_where": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\apm-install-dir-117428-12032-an3zg8.9n7nj3jtt9",
+  "_spec": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\d-118330-20384-ox1707.v4lt7yzaor\\package.tgz",
+  "_where": "C:\\Users\\Ryan\\AppData\\Local\\Temp\\apm-install-dir-118330-20384-2jv2si.is8qvt2o6r",
   "bugs": {
     "url": "https://github.com/AtomLinter/linter-pylint/issues"
   },
@@ -85,9 +84,10 @@
   },
   "description": "Lint python on the fly, using pylint",
   "devDependencies": {
-    "eslint": "^3.13.0",
-    "eslint-config-airbnb-base": "^11.1.1",
-    "eslint-plugin-import": "^2.2.0"
+    "eslint": "^4.6.0",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "jasmine-fix": "^1.3.1"
   },
   "engines": {
     "atom": ">=1.4.0 <2.0.0"
@@ -138,5 +138,5 @@
     "lint": "eslint .",
     "test": "apm test"
   },
-  "version": "2.1.0"
+  "version": "2.1.1"
 }

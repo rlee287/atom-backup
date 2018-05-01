@@ -43,7 +43,7 @@
     disableTimeout: true
     rcFile: "C:\\Users\\Ryan\\.atom\\atom.pylintrc"
   "linter-ui-default":
-    panelHeight: 53
+    panelHeight: 191
   minimap:
     disablePythonDocLinks: true
     plugins:
